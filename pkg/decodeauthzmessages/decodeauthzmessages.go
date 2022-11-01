@@ -2,7 +2,7 @@
 // github.com/hashicorp/packer-plugin-amazon/builder/common/errors.go (MPL 2.0
 // Licensed at the time of use)
 
-// The DecodeAuthZMessages function has been renamed by SetHandler
+// The DecodeAuthZMessages function has been renamed to SetHandler
 
 package decodeauthzmessages
 
@@ -43,7 +43,7 @@ func decodeAWSError(decoder stsDecoder, err error) error {
 	return err
 }
 
-// DecodeAuthZMessages enables automatic decoding of any
+// SetHandler enables automatic decoding of any
 // encoded authorization messages
 //func DecodeAuthZMessages(sess *session.Session) {
 func SetHandler(sess *session.Session) {
